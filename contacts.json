@@ -21,17 +21,3 @@
     "birthday": "03/28/1960"  
   }
 ]
-
-// [
-//   {
-//     "_id":"63c30661ec69c006fccc6aa3",
-//     "firstName":"Helen",
-//     "lastName":"J.",
-//     "email":"HelenJS@test.com",
-//     "favoriteColor":"White",
-//     "birthday":"09/04/18"},
-//     {"_id":"63c30782ec69c006fccc6aa4",
-//     "firstName":"Emily Nicole",
-//     "lastName":"B.",
-//     "email":"emily@advanced.com",
-//     "favoriteColor":"Blue","birthday":"08/24/21"},{"_id":"63c30782ec69c006fccc6aa5","firstName":"Nicholas","lastName":"B.","email":"Nicholas@advanced.com","favoriteColor":"White","birthday":"08/08/07"}]
