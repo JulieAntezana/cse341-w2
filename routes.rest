@@ -1,8 +1,11 @@
 // LOCALHOST 
-### 
+### get all contacts
 GET http://localhost:8080/contacts
 
-### Create contact 
+### Get single contact by Id
+GET http://localhost:8080/contacts/63cc041a1b1ea223f39615c1
+
+### Create a contact 
 POST http://localhost:8080/contacts/ HTTP/1.1
 content-type: application/json
 
@@ -14,7 +17,7 @@ content-type: application/json
     "birthday": "03/28/1960" 
   }
   
-### Update contact 
+### Update a contact 
 PUT http://localhost:8080/contacts/63cc0d29972232c80171be5e HTTP/1.1
 content-type: application/json
 
@@ -26,16 +29,19 @@ content-type: application/json
     "birthday": "03/28/1960" 
   }
 
-###
+### Delete a contact
 DELETE http://localhost:8080/contacts/63cbf3371dc2fbd779333b87
 
 
 // PRODUCTION Deploy 
 
-### 
+### Get all contacts
 GET https://cse341-w2.onrender.com/contacts/ 
 
-### Create contact 
+### Get a single contact by Id
+GET https://cse341-w2.onrender.com/contacts/63cc041a1b1ea223f39615c1 
+
+### Create a contact 
 POST http://cse341-w2.onrender.com/ HTTP/1.1
 content-type: application/json
 
@@ -47,7 +53,7 @@ content-type: application/json
     "birthday": "03/28/1960" 
   }
   
-### Update contact 
+### Update a contact 
 PUT http://cse341-w2.onrender.com/63cc0d29972232c80171be5e HTTP/1.1
 content-type: application/json
 
@@ -59,5 +65,5 @@ content-type: application/json
     "birthday": "03/28/1960" 
   }
 
-###
+### Delete a contact
 DELETE http://cse341-w2.onrender.com/63cbf3371dc2fbd779333b87
