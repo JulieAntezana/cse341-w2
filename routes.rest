@@ -18,7 +18,7 @@ content-type: application/json
   }
   
 ### Update a contact 
-PUT http://localhost:8080/contacts/63cc0d29972232c80171be5e HTTP/1.1
+PUT http://localhost:8080/contacts/63cc1be7972232c80171be60 HTTP/1.1
 content-type: application/json
 
 {
@@ -30,7 +30,7 @@ content-type: application/json
   }
 
 ### Delete a contact
-DELETE http://localhost:8080/contacts/63cbf3371dc2fbd779333b87
+DELETE http://localhost:8080/contacts/63cc1be7972232c80171be60
 
 
 // PRODUCTION Deploy 
