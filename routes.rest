@@ -1,9 +1,10 @@
 // LOCALHOST 
 ### get all contacts
-GET http://localhost:8080/contacts
+GET http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
 
 ### Get single contact by Id
-GET http://localhost:8080/contacts/63cc041a1b1ea223f39615c1
+GET http://localhost:8080/contacts/63cc041a1b1ea223f39615c1 HTTP/1.1
 
 ### Create a contact 
 POST http://localhost:8080/contacts/ HTTP/1.1
@@ -30,16 +31,17 @@ content-type: application/json
   }
 
 ### Delete a contact
-DELETE http://localhost:8080/contacts/63cc1be7972232c80171be60
+DELETE http://localhost:8080/contacts/63cc1be7972232c80171be60 HTTP/1.1
 
 
 // PRODUCTION Deploy 
 
 ### Get all contacts
-GET https://cse341-w2.onrender.com/contacts/ 
+GET https://cse341-w2.onrender.com/contacts/ HTTP/1.1
+content-type: application/json
 
 ### Get a single contact by Id
-GET https://cse341-w2.onrender.com/contacts/63cc041a1b1ea223f39615c1 
+GET https://cse341-w2.onrender.com/contacts/63cc041a1b1ea223f39615c1 HTTP/1.1
 
 ### Create a contact 
 POST http://cse341-w2.onrender.com/ HTTP/1.1
@@ -66,4 +68,4 @@ content-type: application/json
   }
 
 ### Delete a contact
-DELETE http://cse341-w2.onrender.com/63cbf3371dc2fbd779333b87
+DELETE http://cse341-w2.onrender.com/63cbf3371dc2fbd779333b87 HTTP/1.1
