@@ -18,7 +18,7 @@ content-type: application/json
 }
   
 ### Update a contact 
-PUT http://localhost:8080/contacts/63de0cd8f94789d621e37652 HTTP/1.1
+PUT http://localhost:8080/contacts/63de0cd8f94789d621e37652 HTTPS/1.1
 content-type: application/json
 
 {
@@ -42,7 +42,7 @@ GET https://cse341-w2.onrender.com/contacts/
 GET https://cse341-w2.onrender.com/contacts/63cc041a1b1ea223f39615c1
 
 ### Create a contact 
-POST https://cse341-w2.onrender.com/ HTTP/1.1
+POST https://cse341-w2.onrender.com/ HTTPS/1.1
 content-type: application/json
 
 {
