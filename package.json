@@ -5,7 +5,7 @@
     "dotenv": "^16.0.0",
     "express": "^4.16.3",
     "mongodb": "^4.4.0",
-    "swagger-ui-express": "^4.3.0"
+    "swagger-ui-express": "^4.6.0"
   },
   "description": "",
   "devDependencies": {
@@ -14,7 +14,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.20",
     "prettier": "^2.5.1",
-    "swagger-autogen": "^2.19.0"
+    "swagger-autogen": "^2.23.0"
   },
   "license": "ISC",
   "main": "server.js",
