@@ -15,10 +15,10 @@ content-type: application/json
     "email": "vblye@test.com",
     "favoriteColor": "Blue",
     "birthday": "03/28/1960" 
-  }
+}
   
 ### Update a contact 
-PUT http://localhost:8080/contacts/63cc1be7972232c80171be60 HTTP/1.1
+PUT http://localhost:8080/contacts/63de0cd8f94789d621e37652 HTTP/1.1
 content-type: application/json
 
 {
@@ -27,10 +27,10 @@ content-type: application/json
     "email": "vblye@test.com",
     "favoriteColor": "Lavendar",
     "birthday": "03/28/1960" 
-  }
+}
 
 ### Delete a contact
-DELETE http://localhost:8080/contacts/63cc1be7972232c80171be60 HTTP/1.1
+DELETE http://localhost:8080/contacts/63de0cd8f94789d621e37652 HTTP/1.1
 
 
 // PRODUCTION Deploy 
@@ -42,28 +42,28 @@ GET https://cse341-w2.onrender.com/contacts/
 GET https://cse341-w2.onrender.com/contacts/63cc041a1b1ea223f39615c1
 
 ### Create a contact 
-POST https://cse341-w2.onrender.com/ HTTP/1.1
+POST https://cse341-w2.onrender.com/ HTTPS/1.1
 content-type: application/json
 
 {
-  "firstName": "Billi",
+  "firstName": "Vernon",
   "lastName": "Blye",
   "email": "vblye@test.com",
-  "favoriteColor": "Orange",
-  "birthday": "08/5/1999"
+  "favoriteColor": "Blue",
+  "birthday": "03/28/1960"
 }
   
 ### Update a contact 
-PUT https://cse341-w2.onrender.com/63ddd6a4c173fc9a9d2477b8 HTTP/1.1
+PUT https://cse341-w2.onrender.com/63ddd8c7c173fc9a9d2477b9 HTTPS/1.1
 content-type: application/json
 
 {
     "firstName": "Billi",
     "lastName": "Blye",
-    "email": "vblye@test.com",
-    "favoriteColor": "Grape",
-    "birthday": "08/5/1999"
+    "email": "bblye@test.com",
+    "favoriteColor": "Purple",
+    "birthday": "03/28/1960"
   }
 
 ### Delete a contact
-DELETE https://cse341-w2.onrender.com/63cbf3371dc2fbd779333b87 HTTP/1.1
+DELETE https://cse341-w2.onrender.com/63ddfd432bd19ef0ed2b9611 HTTPS/1.1
