@@ -54,16 +54,16 @@ content-type: application/json
 }
   
 ### Update a contact 
-PUT https://cse341-w2.onrender.com/contacts/63dea330202451fd15d351f1 HTTP/1.1
+PUT https://cse341-w2.onrender.com/contacts/63deab1a12dbce785846d80f HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Billi",
+    "firstName": "Vernon",
     "lastName": "Blye",
-    "email": "bblye@test.com",
-    "favoriteColor": "Orange",
-    "birthday": "08/5/1999" 
+    "email": "vblye@test.com",
+    "favoriteColor": "Grape",
+    "birthday": "03/28/1960" 
 }
 
 ### Delete a contact
-DELETE https://cse341-w2.onrender.com/contacts/63dea490202451fd15d351f2
+DELETE https://cse341-w2.onrender.com/contacts/63deab1a12dbce785846d80f
