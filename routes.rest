@@ -1,10 +1,9 @@
 // LOCALHOST 
 ### get all contacts
-GET http://localhost:8080/contacts HTTP/1.1
-content-type: application/json
+GET http://localhost:8080/contacts
 
 ### Get single contact by Id
-GET http://localhost:8080/contacts/63cc041a1b1ea223f39615c1 HTTP/1.1
+GET http://localhost:8080/contacts/63cc041a1b1ea223f39615c1
 
 ### Create a contact 
 POST http://localhost:8080/contacts/ HTTP/1.1
@@ -37,35 +36,34 @@ DELETE http://localhost:8080/contacts/63cc1be7972232c80171be60 HTTP/1.1
 // PRODUCTION Deploy 
 
 ### Get all contacts
-GET https://cse341-w2.onrender.com/contacts/ HTTP/1.1
-content-type: application/json
+GET https://cse341-w2.onrender.com/contacts/
 
 ### Get a single contact by Id
-GET https://cse341-w2.onrender.com/contacts/63cc041a1b1ea223f39615c1 HTTP/1.1
+GET https://cse341-w2.onrender.com/contacts/63cc041a1b1ea223f39615c1
 
 ### Create a contact 
-POST http://cse341-w2.onrender.com/ HTTP/1.1
+POST https://cse341-w2.onrender.com/ HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Vernon",
-    "lastName": "Blye",
-    "email": "vblye@test.com",
-    "favoriteColor": "Blue",
-    "birthday": "03/28/1960" 
-  }
+  "firstName": "Billi",
+  "lastName": "Blye",
+  "email": "vblye@test.com",
+  "favoriteColor": "Orange",
+  "birthday": "08/5/1999"
+}
   
 ### Update a contact 
-PUT http://cse341-w2.onrender.com/63cc0d29972232c80171be5e HTTP/1.1
+PUT https://cse341-w2.onrender.com/63ddd6a4c173fc9a9d2477b8 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Vernon",
+    "firstName": "Billi",
     "lastName": "Blye",
     "email": "vblye@test.com",
-    "favoriteColor": "Lavendar",
-    "birthday": "03/28/1960" 
+    "favoriteColor": "Grape",
+    "birthday": "08/5/1999"
   }
 
 ### Delete a contact
-DELETE http://cse341-w2.onrender.com/63cbf3371dc2fbd779333b87 HTTP/1.1
+DELETE https://cse341-w2.onrender.com/63cbf3371dc2fbd779333b87 HTTP/1.1
