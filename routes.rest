@@ -42,7 +42,7 @@ GET https://cse341-w2.onrender.com/contacts/
 GET https://cse341-w2.onrender.com/contacts/63de262c882fc17d74f6d5e7 
 
 ### Create a contact 
-POST http://cse341-w2.onrender.com/contacts/ HTTP/1.1
+POST https://cse341-w2.onrender.com/contacts/ HTTPS/1.1
 content-type: application/json
 
 {
@@ -54,7 +54,7 @@ content-type: application/json
   }
   
 ### Update a contact 
-PUT http://cse341-w2.onrender.com/contacts/63de934e83b8a967966982dc HTTP/1.1
+PUT https://cse341-w2.onrender.com/contacts/63de934e83b8a967966982dc HTTPS/1.1
 content-type: application/json
 
 {
@@ -66,4 +66,4 @@ content-type: application/json
   }
 
 ### Delete a contact
-DELETE http://cse341-w2.onrender.com/contacts/63de262c882fc17d74f6d5e7
+DELETE https://cse341-w2.onrender.com/contacts/63de262c882fc17d74f6d5e7
